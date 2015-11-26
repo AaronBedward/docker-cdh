@@ -27,6 +27,27 @@ EXPOSE 9090:9090
 EXPOSE 8088:8088
 EXPOSE 19888:19888
 
+# zookeeper
+EXPOSE 2181
+# HBase Master API port
+EXPOSE 60000
+# HBase Master Web UI
+EXPOSE 60010
+# Regionserver API port
+EXPOSE 60020
+# HBase Regionserver web UI
+EXPOSE 60030
+# Spark Master web UI port
+EXPOSE 18080:18080
+# Spark Worker web UI port
+EXPOSE 18081:18081
+# Spark History Server web UI port
+EXPOSE 18088:18088
+
+
+
+
+
 # private only
 #EXPOSE 80
 
