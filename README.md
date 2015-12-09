@@ -11,7 +11,7 @@ dedicated branches.
 
 This image is somewhat large, so you might want to do a separate
 
-    docker pull svds/cdh
+    docker pull aaronbedward/cdh
 
 to install.
 
@@ -20,7 +20,7 @@ to install.
 
 Spin it up with 
 
-    docker run -td svds/cdh
+    docker run -td aaronbedward/cdh
 
 get the container id from
 
