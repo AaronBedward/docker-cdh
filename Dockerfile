@@ -44,6 +44,8 @@ EXPOSE 18081:18081
 # Spark History Server web UI port
 EXPOSE 18088:18088
 
+# MYSQL
+EXPOSE 3306:3306
 
 
 
